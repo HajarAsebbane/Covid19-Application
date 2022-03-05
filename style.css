@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1{
+   padding: 50px;
+    background-color: green;
+   
+}
+#content{
+    border: 1px solid black;
+    width: 50%;
+    margin: 100px;
+    padding: 80px;
+    position: relative;
+    
+    top: -80px;
+}
+#container{
+    display: flex;
+}
+
+#side{
+    /*border: 1px solid black;  
+    width: 10%;
+    margin: 100px;
+    padding: 80px;
+    position: relative;
+    top: -80px;*/
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 33%;
+    height: 600px;
+    overflow-y: scroll;
+}
+
+.listitem{
+    background-color: green;
+    margin: 2px;
+    padding: 2px;
+}
+
+.listitem:hover{
+    background-color: gray;
+}
+
+footer{
+    background-color:green ;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+}
